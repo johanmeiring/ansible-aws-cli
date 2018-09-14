@@ -2,6 +2,8 @@
 
 Installs and configures the AWS CLI for conveniently interacting with AWS services such as S3.
 
+Note: This was originally forked from [https://github.com/dstil/ansible-aws-cli](https://github.com/dstil/ansible-aws-cli), which appears to have been deleted as of 2018/09/14.  I might consider publishing it to Ansible Galaxy in order to replace the role which has now gone missing, but have not made a decision yet.
+
 ## Requirements
 
 -   Tested on Ubuntu 12.04 Server;
