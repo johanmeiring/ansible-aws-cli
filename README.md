@@ -2,12 +2,12 @@
 
 Installs and configures the AWS CLI for conveniently interacting with AWS services such as S3.
 
-Note: This was originally forked from [https://github.com/dstil/ansible-aws-cli](https://github.com/dstil/ansible-aws-cli), which appears to have been deleted as of 2018/09/14.  I might consider publishing it to Ansible Galaxy in order to replace the role which has now gone missing, but have not made a decision yet.
+Note: This was originally forked from [https://github.com/dstil/ansible-aws-cli](https://github.com/dstil/ansible-aws-cli), which appears to have been deleted as of 2018/09/14. I might consider publishing it to Ansible Galaxy in order to replace the role which has now gone missing, but have not made a decision yet.
 
 ## Requirements
 
--   Tested on Ubuntu 12.04 Server;
--   Ansible 2.0+
+- Tested on Ubuntu 12.04 Server;
+- Ansible 2.0+
 
 ## Role Variables
 
@@ -17,6 +17,7 @@ The default variables are as follows:
     aws_region: 'ap-southeast-2'
     aws_access_key_id: 'YOUR_ACCESS_KEY_ID'
     aws_secret_access_key: 'YOUR_SECRET_ACCESS_KEY'
+    aws_pip_package: python-pip # change this to python3-pip for Python3
 
 ## Example Playbook
 
